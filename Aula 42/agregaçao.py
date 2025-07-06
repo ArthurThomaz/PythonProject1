@@ -1,0 +1,11 @@
+from classee import CarrinhoDeCompras, Produto
+cart=CarrinhoDeCompras()
+p1 = Produto('Ice Cream',25)
+p2 = Produto('Chocolate Bar',35.50)
+p3 = Produto('Milk',7.90)
+cart.inserir_produto(p1)
+cart.inserir_produto(p2)
+cart.inserir_produto(p3)
+cart.inserir_produto(p1)
+cart.lista_produto()
+print(cart.soma_total())
